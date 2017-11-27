@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <!--<com.alibaba.intl.android.material.progressbar.ProgressWheel-->
+        <!--android:id="@+id/progress_loading"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:visibility="visible"-->
+        <!--app:matProg_barColor="@color/theme_primary_activated"-->
+        <!--app:matProg_rimColor="@color/gray_cccccc"-->
+        <!--app:matProg_progressIndeterminate="true" />-->
+
+    <ProgressBar
+        android:id="@+id/pull_to_refresh_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/item_load_more_icon_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pull_to_refresh_load_more"
+        android:textSize="16sp" />
+
+</LinearLayout>

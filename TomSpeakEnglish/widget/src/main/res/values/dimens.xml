@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <dimen name="drawer_icon_size">24dp</dimen>
+    <dimen name="navigation_padding_top_default">8dp</dimen>
+    <dimen name="navigation_separator_vertical_padding">8dp</dimen>
+
+    <dimen name="dimen_md_text_size_title_toolbar">20sp</dimen>
+    <dimen name="dimen_md_text_size_title">20sp</dimen>
+    <dimen name="dimen_md_text_size_subhead">16sp</dimen>
+    <dimen name="dimen_md_text_size_body">14sp</dimen>
+    <dimen name="dimen_md_text_size_caption">12sp</dimen>
+    <dimen name="dimen_md_text_size_footnote">10sp</dimen>
+
+    <dimen name="dimen_md_margin_control">18dp</dimen>
+    <dimen name="dimen_md_padding_left">15dp</dimen>
+    <dimen name="dimen_md_padding_right">15dp</dimen>
+    <dimen name="dimen_md_padding_top">8dp</dimen>
+    <dimen name="dimen_md_padding_bottom">8dp</dimen>
+    <dimen name="dimen_md_list_item_height">48dp</dimen>
+
+    <dimen name="dimen_md_form_item_height">68dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">8dp</dimen>
+    <dimen name="fab_labels_margin">-25dp</dimen>
+
+    <dimen name="dimen_standard_s1">4dp</dimen>
+    <dimen name="dimen_standard_s2">8dp</dimen>
+    <dimen name="dimen_standard_s3">12dp</dimen>
+    <dimen name="dimen_standard_s4">16dp</dimen>
+    <dimen name="dimen_standard_s5">20dp</dimen>
+    <dimen name="dimen_standard_s6">24dp</dimen>
+    <dimen name="dimen_standard_s7">28dp</dimen>
+    <dimen name="dimen_standard_s8">32dp</dimen>
+    <dimen name="dimen_standard_s9">36dp</dimen>
+    <dimen name="dimen_standard_s10">40dp</dimen>
+    <dimen name="dimen_standard_s11">44dp</dimen>
+    <dimen name="dimen_standard_s12">48dp</dimen>
+    <dimen name="dimen_standard_s13">52dp</dimen>
+    <dimen name="dimen_standard_s14">56dp</dimen>
+    <dimen name="dimen_standard_s15">60dp</dimen>
+    <dimen name="dimen_standard_s16">64dp</dimen>
+    <dimen name="dimen_standard_s17">68dp</dimen>
+    <dimen name="dimen_standard_s18">72dp</dimen>
+    <dimen name="dimen_standard_s19">76dp</dimen>
+    <dimen name="dimen_standard_s20">80dp</dimen>
+
+    <dimen name="md_navigation_icon_size">24dip</dimen>
+
+
+    <dimen name="pickerview_textsize">18sp</dimen>
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">16sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">16sp</dimen>
+
+
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="global_padding">10dp</dimen>
+</resources>

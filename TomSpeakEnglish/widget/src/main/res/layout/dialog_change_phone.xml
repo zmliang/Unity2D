@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tips_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="修改预留手机号"
+            android:textColor="@color/title_bg" />
+
+        <View style="@style/dividing_line_1" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search_bar_bg"
+            android:hint="请输入手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColorHint="#CCCCCC"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/get_vericode_bg"
+            android:text="确定"
+            android:textColor="@color/title_bg"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

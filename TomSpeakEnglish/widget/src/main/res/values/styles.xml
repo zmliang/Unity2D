@@ -1,0 +1,249 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 水平分割线样式1 -->
+    <style name="dividing_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#CECECE</item>
+    </style>
+    <!-- 水平分割线样式2 -->
+    <style name="dividing_line_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#f5f5f5</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="txt_blue_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_sky_blue</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Black">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+
+    <style name="Widget"></style>
+
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+    <style name="TextAppearance.Switch" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Switch1">
+        <item name="track1">@drawable/switch_track_holo_dark</item>
+        <item name="thumb1">@drawable/switch_inner_holo_dark</item>
+        <!--
+        <item name="track">@drawable/switch_bg_default_mz</item>
+        <item name="thumb">@drawable/switch_thumb_activated_mz</item>
+        -->
+        <item name="switchTextAppearance1">@style/TextAppearance.Switch</item>
+        <item name="textOn1">@string/switch_on</item>
+        <item name="textOff1">@string/switch_off</item>
+        <item name="thumbTextPadding1">12dip</item>
+        <item name="switchMinWidth1">96dip</item>
+        <item name="switchPadding1">16dip</item>
+    </style>
+
+
+    <!-- support Material Design -->
+    <style name="AppTheme.SelectableBackground">
+        <item name="android:background">@drawable/bg_list_item_navigation_view</item>
+    </style>
+
+
+    <!-- Material Progressbar START -->
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+    <!-- Material Progressbar END -->
+
+    <style name="SwitchSettings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textOff">OFF</item>
+        <item name="android:textOn">ON</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- standard text -->
+    <style name="MDText"></style>
+
+    <style name="MDText.Body">
+        <item name="android:textSize">@dimen/dimen_md_text_size_body</item>
+    </style>
+
+    <style name="MDText.Body.B1_1">
+        <item name="android:textColor">@color/color_standard_B1_1</item>
+    </style>
+
+    <style name="MDText.Body2.N1_7">
+        <item name="android:textColor">@color/color_standard_N1_7</item>
+    </style>
+
+    <style name="MDText.Body.N2_2">
+        <item name="android:textColor">@color/color_standard_N2_2</item>
+    </style>
+
+    <style name="MDText.Body.N2_3">
+        <item name="android:textColor">@color/color_standard_N2_3</item>
+    </style>
+
+    <style name="MDText.Body.N2_4">
+        <item name="android:textColor">@color/color_standard_N2_4</item>
+    </style>
+
+    <style name="MDText.Body2">
+        <item name="android:textSize">@dimen/dimen_md_text_size_body</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="MDText.Body2.B1_1">
+        <item name="android:textColor">@color/color_standard_B1_1</item>
+    </style>
+
+    <style name="MDText.Caption">
+        <item name="android:textSize">@dimen/dimen_md_text_size_caption</item>
+    </style>
+
+    <style name="MDText.Caption.N1_1">
+        <item name="android:textColor">@color/color_standard_N1_1</item>
+    </style>
+
+    <style name="MDText.Caption.N2_2">
+        <item name="android:textColor">@color/color_standard_N2_2</item>
+    </style>
+
+    <style name="MDText.Caption.N2_3">
+        <item name="android:textColor">@color/color_standard_N2_3</item>
+    </style>
+
+    <style name="MDText.Caption.N2_4">
+        <item name="android:textColor">@color/color_standard_N2_4</item>
+    </style>
+
+    <style name="MDText.Footnote">
+        <item name="android:textSize">@dimen/dimen_md_text_size_footnote</item>
+    </style>
+
+    <style name="MDText.Footnote.N2_2">
+        <item name="android:textColor">@color/color_standard_N2_2</item>
+    </style>
+
+    <style name="MDLine">
+        <item name="android:background">@color/color_standard_N1_5</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+
+    <style name="LoadingCustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- @drawable/dialog_bg -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="BottomMenuDialog" parent="CustomDialog">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowEnterAnimation">@anim/anim_window_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_window_bottombar_out</item>
+    </style>
+
+</resources>

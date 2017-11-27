@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <!-- 顶部按钮栏高度 -->
+    <!-- 顶部按钮paddingLeft -->
+    <!-- 顶部按钮paddingRight -->
+    <!-- 顶部按钮文字大小 -->
+</resources>

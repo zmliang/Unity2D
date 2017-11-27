@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_loading_dialog_shape"
+    android:gravity="center"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ProgressBar
+        android:id="@+id/id_progress_dialog_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/loading_dialog_progressbar" />
+
+    <TextView
+        android:id="@+id/id_tv_loading_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="正在加载…"
+        android:textColor="@color/color_white"
+        android:textSize="14sp" />
+
+</LinearLayout>

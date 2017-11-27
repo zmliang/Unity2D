@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TomSpeakEnglish</string>
+
+    <string name="user_login">用户登陆</string>
+    <string name="identify_code_login">验证码登陆</string>
+    <string name="other_mode_login">其他方式登陆</string>
+    <string name="login">登陆</string>
+    <string name="input_phone_number">请输入手机号</string>
+    <string name="input_sms_auth_code">请输入短信验证码</string>
+    <string name="login_success">登陆成功</string>
+    <string name="login_failed">登陆失败</string>
+    <string name="login_process">登陆中...</string>
+    <string name="unknown">未知</string>
+
+    <string-array name="learn_details">
+        <item>句子</item>
+        <item>单词</item>
+        <item>连续学习(天)</item>
+        <item>总学习(天)</item>
+    </string-array>
+
+    <string-array name="set_item">
+        <item>护眼设置</item>
+        <item>版本更新</item>
+        <item>推荐给好友</item>
+    </string-array>
+</resources>

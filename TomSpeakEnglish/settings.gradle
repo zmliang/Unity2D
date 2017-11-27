@@ -1,0 +1,4 @@
+include ':baselib', ':updater'
+include ':widget'
+include ':wechatloginlib'
+include 'analyticslib', ':app', ':ijkplayer', ':imageloaderlib', ':iflyteklib', ':networklib', ':sharesdk', ':supportlib'

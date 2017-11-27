@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">upgradelib</string>
+    <string name="Commons.Ok">确定</string>
+    <string name="Commons.Cancel">取消</string>
+    <string name="upgrade_hint">检测到新版本，请点击安装</string>
+
+    <string name="friendly_time_today">今天</string>
+    <string name="friendly_time_xday">%1$d天前</string>
+    <string name="friendly_time_xmonth">%1$d月前</string>
+    <string name="friendly_time_xyear">%1$d年前</string>
+
+    <string name="download_prepare">正在连接,准备下载</string>
+    <string name="download_progress">已下载:%1$dK,共:%2$dK</string>
+    <string name="download_failed">下载失败</string>
+    <string name="download_finished">下载完成,请点击安装</string>
+
+    <string name="notification_hint">您有新消息,请下拉查看</string>
+</resources>

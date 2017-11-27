@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pull_to_refresh_pull_label">pull down to refresh&#8230;</string>
+    <string name="pull_to_refresh_release_label">release to refresh&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">loading&#8230;</string>
+    <string name="pull_to_refresh_load_label">pull down to load more</string>
+    <string name="pull_to_refresh_load_more">load more&#8230;</string>
+    <string name="click_to_refresh_messages">click to refresh</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">
+        @string/pull_to_refresh_refreshing_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_load_label">@string/pull_to_refresh_load_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_load_more">@string/pull_to_refresh_load_more</string>
+    <string name="pull_to_refresh_new_messages">@string/click_to_refresh_messages</string>
+
+</resources>

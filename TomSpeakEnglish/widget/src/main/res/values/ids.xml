@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="selected_view" type="id" />
+    <item name="id_tag_index" type="id">false</item>
+    <item name="gridview" type="id" />
+    <item name="webview" type="id" />
+    <item name="scrollview" type="id" />
+    <item name="fab_expand_menu_button" type="id" />
+    <item name="fab_label" type="id" />
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+</resources>

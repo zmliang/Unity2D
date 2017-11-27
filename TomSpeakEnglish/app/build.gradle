@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+android {
+    compileSdkVersion global_compileSdkVersion
+    buildToolsVersion global_buildToolsVersion
+    defaultConfig {
+        applicationId "com.jinkegroup.edu.se"
+        minSdkVersion global_minSdkVersion
+        targetSdkVersion global_targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //support
+    compile 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+
+    compile project(':networklib')
+    compile project(':baselib')
+    compile project(':analyticslib')
+    compile project(':iflyteklib')
+    compile project(':ijkplayer')
+    compile project(':sharesdk')
+    compile project(':updater')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile project(':wechatloginlib')
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tips_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tip_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/tips_title_bg"
+            android:gravity="center"
+            android:text="查看物流"
+            android:textColor="@color/title_bg" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <LinearLayout
+                    android:layout_marginLeft="30.5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="物流公司:  "
+                        android:textSize="15sp"
+                        android:textColor="#4a4a4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/logistics_name_tv"
+                        tools:text="顺丰快递"
+                        android:textSize="15sp"
+                        android:textColor="#4a4a4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_marginLeft="30.5dp"
+                        android:text="物流单号:  "
+                        android:textSize="15sp"
+                        android:textColor="#4a4a4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/logistics_num_tv"
+                        android:layout_toRightOf="@id/text2"
+                        tools:text="1215645453"
+                        android:textSize="15sp"
+                        android:textColor="#4a4a4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/copy_tv"
+                        android:layout_marginRight="30dp"
+                        android:layout_alignParentRight="true"
+                        android:text="复制"
+                        android:textSize="15sp"
+                        android:textColor="@color/txt_yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+        <View
+            style="@style/dividing_line_1"></View>
+        <TextView
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/logistics_dialog_btn"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/txt_yellow" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="size" format="dimension" />
+        <attr name="rightDistance" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="NumberKeyboardView">
+        <attr name="numSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="textIsDisplayable" format="boolean" />
+        <attr name="style">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="HollyViewPager">
+        <attr name="hvp_headerHeight" format="dimension" />
+        <attr name="hvp_headerBackgroundView" format="reference" />
+    </declare-styleable>
+
+</resources>
